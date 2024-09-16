@@ -4,6 +4,7 @@ import "../styles/solution.css"
 import "../assets/IconChamp.svg"
 
 
+
 export default function Solution() {
     return (
         <>
