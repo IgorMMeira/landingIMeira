@@ -23,22 +23,22 @@ export default function Testimonial() {
                     <section className="even-columns container">
                         <div className="Testimonial-card">
                             <img src="https://www.agendartecultura.com.br/wp-content/uploads/2022/12/meneson.jpg" className="image"></img>
-                            <p>A plataforma <strong>IMEIRA</strong> ajuda você a ver quantos dias a mais você precisa trabalhar para alcance seu financeiro e ano.</p>
-                            <h3>Pedro ...</h3>
+                            <p>"O <strong>IMEIRA </strong>transformou minha rotina! Agora consigo organizar minhas tarefas e ganhar muito mais tempo livre."</p>
+                            <h3>Pedro</h3>
                             <hr>
                             </hr>
                         </div>
                         <div className="Testimonial-card">
                             <img src="https://etalent.com.br/wp-content/uploads/2019/09/Harvey-Specter.jpg" className="image"></img>
-                            <p>A plataforma <strong>IMEIRA</strong> ajuda você a ver quantos dias a mais você precisa trabalhar para alcance seu financeiro e ano.</p>
-                            <h3>João ...</h3>
+                            <p>"Com o <strong>IMEIRA</strong> minha produtividade aumentou significativamente. Consigo fazer mais coisas em menos tempo."</p>
+                            <h3>João</h3>
                             <hr>
                             </hr>
                         </div>
 
                         <div className="Testimonial-card">
                             <img src="https://media.gazetadopovo.com.br/2021/12/14122407/elon-musk-steve-jurvetson-wikimedia-commons-960x540.jpg" className="image"></img>
-                            <p>A plataforma <strong>IMEIRA</strong> ajuda você a ver quantos dias a mais você precisa trabalhar para alcance seu financeiro e ano.</p>
+                            <p>"O <strong>IMEIRA </strong>me ajuda a manter o controle das minhas tarefas e me deixa mais tranquilo."</p>
                             <h3>Elon Musk</h3>
                             <hr>
                             </hr>

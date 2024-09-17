@@ -1,7 +1,7 @@
 import "../styles/header.css"
 import "../styles/utility.css";
 import IMeiralogo from "../assets/logo.svg"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Button from "./Button"
 import Close from "../assets/Close.svg"
 import Menu from "../assets/Menu.svg"
@@ -13,6 +13,15 @@ import Menu from "../assets/Menu.svg"
 export default function Header() {
 
     const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+    useEffect(() => {
+        if (showMobileMenu) {
+            document.documentElement.style.overflowY = 'hidden';
+        } else {
+            document.documentElement.style.overflowY = 'auto';
+        }
+    }, [showMobileMenu]);
+
     return (
         <>
             <header className="container py-sm">
@@ -25,7 +34,7 @@ export default function Header() {
                                 <a href="#">Home</a>
                             </li>
                             <li>
-                                <a href="#solution">Soluções</a>
+                                <a href="">Soluções</a>
                             </li>
                             <li>
                                 <a href="#testimonials">Depoimentos</a>
@@ -55,7 +64,7 @@ export default function Header() {
                                             <a href="#">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#solution">Soluções</a>
+                                            <a href="#">Soluções</a>
                                         </li>
                                         <li>
                                             <a href="#testimonials">Depoimentos</a>

@@ -19,11 +19,11 @@ export default function Hero() {
 
                 <div className="container content">
                     <p className="desktop-only">
-                        Olá
 
-                        <h1> Uma solução que irá te entragar X </h1></p>
+
+                        <h1> A solução perfeita para quem busca otimizar o tempo </h1></p>
                     <p>
-                        Teste para Slogan
+                        Ganhe mais tempo para o que realmente importa.
                     </p>
                     <div className="flex gap-1">
 
