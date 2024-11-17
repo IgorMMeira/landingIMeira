@@ -19,9 +19,7 @@ export default function Hero() {
 
                 <div className="container content">
                     <p className="desktop-only">
-
-
-                        <h1> A solução perfeita para quem busca otimizar o tempo </h1></p>
+                        <h2> A solução perfeita para quem busca otimizar o tempo </h2></p>
                     <p>
                         Ganhe mais tempo para o que realmente importa.
                     </p>
